@@ -1,0 +1,15 @@
+@import url("//fonts.googleapis.com/css?family=Bitter");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-footer {
+        @apply h-16 w-16 rounded-full bg-btn-white flex justify-center items-center hover:bg-activation-yellow transition-all
+    }
+}
+
+@font-face {
+    font-family: Melodrama;
+    src: url("fonts/melodrama/Melodrama-Regular.ttf") format('opentype');
+}
